@@ -12,6 +12,7 @@
         public IEnumerable<Bowler> Bowlers => _context.Bowlers;
         public IEnumerable<Team> Teams => _context.Teams;
 
+        //Set up way to get data by joining bowlers and teams together. Have a parameter for what teams to get
         public IEnumerable<Bowler> GetBowlersWithTeams(string[] teamNames)
         {
             var joinedData = from bowler in _context.Bowlers

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Bowler } from '../types/Bowler';
 
 function BowlerList() {
+  //Fetch bowler data through api
   const [bowlerData, setBowlerData] = useState<Bowler[]>([]);
 
   useEffect(() => {
@@ -32,6 +33,7 @@ function BowlerList() {
           </tr>
         </thead>
         <tbody>
+          {/* Create One row of table for every bowler in bowlerData */}
           {bowlerData.map((b) => (
             <tr key={b.bowlerId}>
               <td>

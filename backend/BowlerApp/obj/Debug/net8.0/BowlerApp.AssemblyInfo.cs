@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BowlerApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74a29d1dd6fc54a008d7d740b48c2156c2713b3c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BowlerApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BowlerApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

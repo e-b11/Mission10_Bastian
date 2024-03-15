@@ -125,3 +125,4 @@ C:\Users\tabyk\source\repos\Mission10_Bastian\backend\BowlerApp\obj\Debug\net8.0
 C:\Users\tabyk\source\repos\Mission10_Bastian\backend\BowlerApp\obj\Debug\net8.0\BowlerApp.pdb
 C:\Users\tabyk\source\repos\Mission10_Bastian\backend\BowlerApp\obj\Debug\net8.0\BowlerApp.genruntimeconfig.cache
 C:\Users\tabyk\source\repos\Mission10_Bastian\backend\BowlerApp\obj\Debug\net8.0\ref\BowlerApp.dll
+C:\Users\tabyk\source\repos\Mission10_Bastian\backend\BowlerApp\obj\Debug\net8.0\BowlerApp.sourcelink.json

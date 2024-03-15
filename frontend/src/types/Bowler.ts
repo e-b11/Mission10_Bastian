@@ -11,5 +11,5 @@ export type Bowler = {
   bowlerZip: string;
   bowlerPhoneNumber: string;
   teamId: number;
-  team: Team;
+  team: Team; //import the Team type to access the teamName
 };

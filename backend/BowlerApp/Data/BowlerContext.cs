@@ -8,6 +8,7 @@ namespace BowlerApp.Data
         {
 
         }
+        //Set up two tables
         public DbSet<Bowler> Bowlers { get; set; }
         public DbSet<Team> Teams { get; set; }
     }

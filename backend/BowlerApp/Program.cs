@@ -13,6 +13,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddCors();
 
+//Connect to DbContext and database
 builder.Services.AddDbContext<BowlerContext>(options =>
     options.UseSqlite(builder.Configuration["ConnectionStrings:BowlerConnection"])
 );
@@ -28,6 +29,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+//Allow access from React app
 app.UseCors(p => p.WithOrigins("http://localhost:3000"));
 
 app.UseHttpsRedirection();
